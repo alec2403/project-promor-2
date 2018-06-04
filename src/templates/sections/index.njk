@@ -1,0 +1,143 @@
+{% extends "partials/base.njk" %}
+
+{% block meta %}
+<title>PROMOR | Inicio</title>
+{% endblock %}
+
+{% block content %}
+    <header class="header">
+        <div class="header-text-container">
+            <h1 class="bigCaslon" id="header-title"> Maquinaria <br> para café </h1>
+            <p id="header-subtitle"> Más de 40 años dedicados al diseño y <br> fabricación de maquinaria para el mejor café </p>
+            <div id="cotiza-container">
+              <a href="contact.html"> <p id="header-contact"> CONTACTO </p> </a>
+            </div>
+            <img id="header-arrow" src="img/flecha-cover.png">
+        </div>
+    </header>
+    <section class="product-section">
+        <div class="product-side"></div>
+          <div class="product-rectangle">
+            <div class="product-text-container">
+                <div class="product-text">
+                    <div>
+                        <h2 class="bigCaslon" id="product-title"> Productos estrella </h2>
+                        <p  id="product-text">Buscamos día con día la mejor calidad en el mercado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="karousel">
+              <img src="img/TostadorParaCafe.png" alt="" onmouseover="this.src='img/TostadoraHover.png'" onmouseout="this.src='img/TostadorParaCafe.png'">
+              <img src="img/MolinoEK43.jpg" alt="" onmouseover="this.src='img/MolinoHover.png'" onmouseout="this.src='img/MolinoEK43.jpg'">
+              <img src="img/ModuloPenagosECO.png" alt="" onmouseover="this.src='img/ModuloHover.png'" onmouseout="this.src='img/ModuloPenagosECO.png'">
+              <img src="img/MorteadoraDeExpendio.png" alt="" onmouseover="this.src='img/MorteadoraHover.png'" onmouseout="this.src='img/MorteadoraDeExpendio.png'">
+            </div>
+            <div class="slider-buttons">
+                <img src="img/F1.png" class="prev"></img>
+                <img src="img/F2.png" class="next"></img>
+            </div>
+            <div class="product-cotizar-button-container">
+                <a href="contact.html"> <p id="product-cotizar-button"> COTIZA </p> </a>
+            </div>
+    </section>
+    <section class="maquinaria-section">
+        <div class="maquinaria-text-container">
+            <h1 class="bigCaslon" id="maquinaria-title"> Maquinaria </h1>
+            <p id="maquinaria-text"> Contamos con maquinaria para <br> todas las etapas del café </p>
+            <a href="contact.html"> <p id="maquinaria-cotizar-button"> COTIZA </p> </a>
+        </div>
+        <div class="maquinaria-cards-container">
+            <div class="maquinaria-card-column-1">
+                <div id="etapa-1" class="maquinaria-card">
+                    <div class="top-text maquinaria-card-text-container">
+                        <p>Etapa 1</p>
+                        <h3>Beneficio <br> húmedo</h3>
+                        <div class="maquinaria-image-container">
+                          <img id="gota" src="img/group-19@3x.png">
+                        </div>
+                    </div>
+                </div>
+                <div id="etapa-2" class="maquinaria-card">
+                    <div class="top-text maquinaria-card-text-container">
+                        <p>Etapa 2</p>
+                        <h3>Beneficio <br> seco</h3>
+                        <div class="maquinaria-image-container">
+                          <img id="semilla-chica" src="img/group-20@3x.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="maquinaria-card-column-2">
+                <div id="etapa-3" class="maquinaria-card">
+                    <div class="maquinaria-card-text-container">
+                        <p>Etapa 3</p>
+                        <h3>Catación</h3>
+                        <div class="maquinaria-image-container">
+                          <img id="taza" src="img/group-21@3x.png">
+                        </div>
+                    </div>
+                </div>
+                <div id="etapa-4" class="maquinaria-card">
+                    <div class="maquinaria-card-text-container">
+                        <p>Etapa 4</p>
+                        <h3>Tostaduría</h3>
+                        <div class="maquinaria-image-container">
+                          <img id="semilla-grande" src="img/group-17@3x.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="client-section">
+        <div class="client-title-container">
+            <h2 class="bigCaslon" id="client-title"> Algunos de nuestros clientes </h2>
+        </div>
+        <div id="client-carousel" class="carousel-2">
+            <img src="img/Olam-Coffee.png" id="olam" >
+            <img src="img/ECOM.png" id="ecom"  >
+            <img src="img/Cafe-Bola-de-Oro.png" id="bola-de-oro" >
+            <img src="img/Finca-Kassandra.png" id="finca"  >
+            <img src="img/Cafe-California.png" id="california"  >
+            <img src="img/Cafe-CUSTEPEC.png" id="custepec" >
+            <img src="img/TOMARI.png" >
+            <img src="img/Cafe-Justo.png"  >
+            <img src="img/Cafe-Andrade.png" id="andrade"  >
+            <img src="img/Cafe-Batsil.png"  >
+            <img src="img/Fina-Nuevo.png"  >
+            <img src="img/Colegio-Posgraduados.png"  >
+            <img src="img/Don-Pepe.png"  >
+            <img src="img/Finca-monte-grande.png" id="finca-monte" >
+            <img src="img/Cafe-Biomaya.png"  >
+        </div>
+        <div class="slider-buttons-2">
+          <img src="img/shape-2.png" class="prev-2">
+          <img src="img/shape.png" class="next-2">
+        </div>
+    </section>
+    <section class="taza-section">
+        <div class="taza-content-left">
+            <div class="taza-content-left-text">
+                <h2 class="bigCaslon" id="taza-content-left-title"> Taza de excelencia </h2>
+                <br>
+                <p id="taza-content-left-p"> Los primeros lugares de la <b> Taza de <br> Excelencia </b> los ocupan equipos <b> Promor </b> </p>
+                <br>
+                  <a href="contact.html"> <p id="taza-cotizar-button"> COTIZA </p> </a>
+            </div>
+        </div>
+        <div class="taza-content-right"></div>
+        <div class="aliados-container">
+            <div class="aliados-title">
+                <h2 class="bigCaslon aliados-title-1"> Aliados estratégicos </h2>
+            </div>
+            <div class="aliados-cards-container">
+                <div id="card-1" class="aliados-card">
+                    <img id="aliados-cards-image-1" src="img/ph@3x.png">
+                </div>
+                <div id="card-2" class="aliados-card">
+                    <img id="aliados-cards-image-2" src="img/ma-copy@2x.png">
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

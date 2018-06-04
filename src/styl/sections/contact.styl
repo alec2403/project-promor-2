@@ -1,0 +1,92 @@
+.contact-header
+  margin-top 80px
+  position relative
+  background-image url('../img/group.jpg')
+  background-size cover
+  background-repeat no-repeat
+  height 40vh
+  display flex
+  align-items center
+  color white
+
+.header-card
+  height 15vh
+  width 35vw
+  margin-left 10vw
+  background-image url('../img/group-18.png')
+  background-size cover
+  display flex
+  flex-direction row
+  align-items center
+  justify-content center
+  box-shadow 0 34px 40px 0 rgba(0, 0, 0, 0.5)
+  letter-spacing 1px
+  font-size 1.1em
+
+#mail-icon
+  margin-right 3vw
+  height 1.5vh
+
+
+.contact-content
+  height 600px
+  display flex
+  flex-direction row
+  justify-content space-evenly
+  align-items center
+  margin-top 50px
+
+.contact-form
+  width 40vw
+  margin-bottom 90px
+
+// .map
+//   margin-top auto
+//   margin-bottom auto
+//   margin-left 82px
+//   margin-right 6%
+
+.contact-form p
+  margin-bottom 20px
+  color #777777
+
+::placeholder
+    color #c4c4c4
+
+
+
+input[type=text], select, textarea
+    width 100%
+    padding 12px
+    border 0px solid #ccc
+    border-radius 1px
+    background-color #efefef
+    margin-top 6px
+    margin-bottom 16px
+
+#contact-button
+  border none
+  border-bottom 2px solid green
+  background-color white
+  line-height 1.4
+  cursor pointer
+  -webkit-appearance none
+
+#mail-contact
+  color white
+
+.contact-container
+  display flex
+
+@media only screen and (max-width: 600px)
+  .contact-form
+    width 80vw !important
+
+  .contact-content
+    height 900px !important
+    flex-direction column !important
+    align-items center !important
+
+  .contact-container
+    flex-direction column !important
+    margin-top 70px

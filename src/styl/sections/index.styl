@@ -1,0 +1,869 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+          /*
+          These are all the styles for the landing page of Promor, the jquery for the carousel is in the "carousel.js" file in the "js" folder
+          */
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+*
+    margin 0
+    padding 0
+
+
+
+////////////////////////////////////////////
+          /* Navbar Styles */
+////////////////////////////////////////////
+.nav
+  background-color rgba (0)
+  display flex
+  height 80px
+  justify-content space-between
+  align-items center
+  border-bottom 0.1px solid #84958B
+  background-size cover
+  position fixed
+  width 100%
+  z-index 99
+
+.nav.scrolled
+  background-color #0F4627
+  border none
+
+
+.contact-nav
+  background-image url('../img/Menu-2.jpg')
+
+.nav a
+  color white
+  padding 10px 10px 0px 10px
+  margin-right 35px
+  transition 0.3s
+
+#nav-logo
+  min-width 120px
+  min-height 40px
+
+#phone-nav-a
+  margin-right 100px
+
+#phone-nav
+  margin-right 8px
+  margin-bottom -4px
+
+
+.nav-logo-container
+  padding-left 70px
+
+
+.nav-content span
+  padding 0px 10px
+
+.nav a img
+  height 20px
+  width 20px
+
+
+.nav-click:hover
+  color #26963d
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+    .nav
+      flex-direction column
+      height 100px
+      padding-bottom 15px
+
+    .nav-logo-container
+        padding-top 10px
+        padding-left 0px
+
+    .nav-content-container
+      margin-right auto
+      margin-left auto
+
+    .nav a
+      margin-right 0
+
+    #phone-nav-a
+      margin-right 0
+
+//-----------------------------------//
+//-----------------------------------//
+
+////////////////////////////////////////////
+          /* Header Section */
+////////////////////////////////////////////
+.header
+  background-image url('../img/menu.png')
+  background-size cover
+  background-repeat no-repeat
+  height 700px
+
+.header-text-container
+  width 50%
+  padding-top 130px
+  padding-left 12%
+  padding-bottom 10%
+  display flex
+  flex-direction column
+  position relative
+  height 100%
+
+#header-title
+  font-size 4em
+  color white
+  line-height 0.99
+
+#header-subtitle
+  font-size 1.3em
+  color white
+  white-space nowrap
+  line-height 1.7
+  letter-spacing 1.5px
+
+#header-contact
+  font-size 1em
+  color white
+  border-bottom solid 2px #196d2a
+  display inline-block
+  transition 0.3s
+  margin-top 50px
+  padding 0 3px
+
+
+#cotiza-container
+  width 26.5%
+  height 0
+
+#header-arrow
+  height 35px
+  position absolute
+  bottom 35px
+
+@media only screen and (min-width: 1500px)
+  .product-section
+    height 700px !important
+
+  #maquinaria-title
+    margin-top 50px !important
+
+@media only screen and (max-width: 500px)
+  .maquinaria-cards-container
+    top 55% !important
+
+
+
+
+@media only screen and (max-width: 450px)
+  .product-section
+    height 450px !important
+
+
+@media only screen and (max-width: 600px)
+
+  .header
+    height 430px !important
+
+  #header-title
+    margin-top 100px !important
+    font-size 2.5em !important
+
+  #header-subtitle
+    font-size 3vw  !important
+    top 45% !important
+
+
+  #header-contact
+    border-bottom solid 1px #196d2a !important
+    font-size 4.2vw !important
+
+  .product-rectangle
+    margin-top -40px !important
+
+
+  #header-arrow
+    height 30px !important
+    bottom 15px !important
+
+  .header-text-container
+    padding-top 7% !important
+    padding-left 10% !important
+    display flex !important
+    flex-direction column !important
+    position relative !important
+
+  #product-title
+    font-size 6vw !important
+
+  .product-text-container
+    margin-top 20px !important
+    margin-left 40px !important
+
+  .product-rectangle
+    width 83vw !important
+
+  .product-side
+    width 17vw !important
+
+  #product-cotizar-button
+    margin-top 40px !important
+    padding-top 0px !important
+    font-size 4.7vw !important
+
+  #product-text
+    font-size 4vw !important
+
+  .slider-buttons
+    left 50% !important
+    width 70px !important
+    top 110% !important
+
+  .next
+    height 30px !important
+
+  .prev
+    height 30px !important
+
+  .maquinaria-section
+    height 480px !important
+
+  .maquinaria-cards-container
+    height 40% !important
+    width 70% !important
+    top 45% !important
+
+  #maquinaria-title
+    margin-top 40px !important
+    font-size 3em !important
+
+  #maquinaria-text
+    font-size 3.7vw !important
+
+  .maquinaria-card-text-container
+    position absolute !important
+    width 100% !important
+    padding 10px 10px 5px 10px !important
+
+  .maquinaria-card-column-1
+    margin-bottom 5px !important
+
+  #gota
+    height 20px !important
+    right 15px !important
+    top 10px !important
+
+  #taza
+    width 20px !important
+    right 15px !important
+    top 10px !important
+
+  #semilla-chica
+    height 20px !important
+    right 15px !important
+    top 10px !important
+
+  #semilla-grande
+    height 20px !important
+    right 15px !important
+    top 10px !important
+
+  .maquinaria-card
+    padding 0 !important
+
+  .maquinaria-card-text-container p
+    font-size 10px !important
+
+  .maquinaria-card-text-container h3
+    font-size 14px !important
+
+  .maquinaria-card-text-container img
+    padding 0 !important
+    max-height 20px !important
+    max-width 20px !important
+
+
+  #maquinaria-cotizar-button
+    padding-top 0 !important
+    margin-top 10px !important
+    font-size 4.7vw !important
+    width 23% !important
+
+  #maquinaria-title
+    margin-bottom 0px !important
+
+  .maquinaria-text-container
+    justify-content flex-start !important
+    margin-left 20% !important
+
+  .client-section
+    margin-top 10vh !important
+    height 330px !important
+
+  .next-2
+    height 30px !important
+
+  .prev-2
+    height 30px !important
+
+  .taza-content-left
+    margin-top -5vh !important
+    width 90% !important
+    height 55vh !important
+
+  .taza-content-right
+    height 50vh !important
+
+  .taza-content-left-text
+    left 10% !important
+    margin-top 5vh !important
+
+  .taza-content-right
+    width 10% !important
+
+  #client-title
+    font-size 5vw !important
+
+  .taza-section
+    height 400px !important
+
+  #taza-content-left-p
+    padding 3vh 0 1.5vh 0 !important
+
+  #taza-cotizar-button
+    padding-top 0px !important
+    font-size 4vw !important
+
+  .slider-buttons-2
+    bottom 15% !important
+
+  .aliados-cards-container
+    height 10vh !important
+    width 58vw !important
+    margin-bottom -100px !important
+
+
+  .aliados-card
+    justify-content center !important
+    align-items center !important
+    padding 15px !important
+
+  #footer-copyright
+    bottom -30px !important
+
+  .header-card
+    width 77vw
+
+  .aliados-container
+    height 20% !important
+
+  .slick-slide
+    margin 0 6rem !important
+    max-height 300px !important
+    max-width 300px !important
+
+  .aliados-title
+    top 20px !important
+
+  // #olam
+  //   padding 30px 0 !important
+  //
+  #ecom
+    padding 40px 0 !important
+  //
+  // #finca
+  //   padding 30px 0 !important
+  //
+  // #california
+  //   padding 10px 0 !important
+  //
+  // #finca-monte
+  //   padding 20px 0 !important
+  //
+  // #andrade
+  //   padding 35px 0 !important
+
+  #card-1
+    padding 18px 20px !important
+
+  #card-2
+    padding 18px 21px !important
+
+  .slick-center
+    transition 0.7s
+    transform scale(1) !important
+    height 100% !important
+
+
+
+
+
+
+
+
+
+
+//-----------------------------------//
+//-----------------------------------//
+//-----------------------------------//
+
+////////////////////////////////////////////
+          /* Product Section */
+////////////////////////////////////////////
+
+.product-section
+  position relative
+  height 550px
+  display flex
+
+
+.product-rectangle
+  position absolute
+  right 0
+  background-color #ffffff
+  width 63vw
+  margin-top -90px
+
+.product-side
+  position relative
+  width 37vw
+  background-image url('../img/group-7.png')
+  background-repeat no-repeat
+  background-size cover
+  z-index -1
+
+.product-text-container
+  position relative
+  margin-top 90px
+  margin-bottom 45px
+  margin-left 60px
+
+
+#product-title
+  font-size 4vw
+  padding-bottom 9px
+  letter-spacing 1.2px
+
+#product-text
+  font-size 1.4vw
+  color #777777
+
+.slick-center
+  transition 0.7s
+  transform scale(1.5) !important
+  height 220% !important
+
+.slick-track
+  display flex !important
+  min-height 100% !important
+
+#client-carousel .slick-track .slick-slide
+  display flex !important
+  align-items center !important
+  justify-content center !important
+  max-height 100px !important
+  margin-top 40px !important
+  margin 0 2.8rem !important
+
+#client-carousel .slick-track
+  height 170px !important
+
+.slider-buttons
+  width 80px
+  position absolute
+  left -147px
+  top 200px
+  transition 0.8s
+  cursor pointer
+
+.item
+  padding 0px 5px
+
+.prev
+  position absolute
+  left 0
+  height 35px
+  transition 0.8s
+
+.prev:hover
+  left -10px
+
+.next
+  position absolute
+  right 0
+  height 35px
+  transition 0.8s
+
+.next:hover
+  right -10px
+
+.testin
+  width 130px !important
+
+
+#product-cotizar-button
+  margin-left 8vw
+  margin-top 60px
+  position absolute
+  font-size 1em
+  color black
+  border-bottom solid 2px #196d2a
+  transition 0.3s
+  padding 0 3px
+  line-height 18px
+  letter-spacing 1px
+
+//-----------------------------------//
+//-----------------------------------//
+
+
+
+////////////////////////////////////////////
+          /* Maquinaria Section */
+////////////////////////////////////////////
+
+.maquinaria-section
+  width 91%
+  margin-left 5%
+  margin-right 5%
+  margin-top -60px
+  height 350px
+  background-image url('../img/group-18.png')
+  background-size cover
+  background-repeat no-repeat
+  color white
+  position relative
+  box-shadow 0 34px 40px 0 rgba(0, 0, 0, 0.5)
+
+
+.maquinaria-text-container
+  margin-left 85px
+  display flex
+  flex-direction column
+  justify-content center
+
+#maquinaria-title
+  font-size 5vw
+  margin-top 90px
+  margin-bottom 10px
+
+#maquinaria-text
+  font-size 1.5vw
+  line-height 1.8em
+  margin-top 10px
+  display inline-block
+
+#maquinaria-cotizar-button
+  margin-top 30px
+  font-size 1em
+  color white
+  padding 0 3px
+  border-bottom solid 2px #196d2a
+  display inline-block
+  transition 0.3s
+  line-height 18px
+  letter-spacing 1px
+  width 64px
+
+.maquinaria-cards-container
+  position absolute
+  height 70%
+  width 40%
+  top 15%
+  right 12%
+
+.maquinaria-card-column-1
+  width 100%
+  height 50%
+
+
+.maquinaria-card-column-2
+  width 100%
+  height 50%
+
+
+.maquinaria-card
+  width 40%
+  height 90%
+  background-color white
+  color black
+  padding 0 0 20px 20px
+
+.maquinaria-card-text-container
+  height 100%
+  display flex
+  flex-direction column
+  justify-content flex-end
+
+.maquinaria-card-text-container h3
+  font-size 1em
+  margin-top 10px
+
+.maquinaria-card-text-container p
+  font-size 15px
+  color #9b9b9b
+
+.top-text p
+  bottom 50px
+
+
+.maquinaria-card-text-container img
+  position absolute
+  right 0
+  top 0
+  padding 25px 25px 0px 0px
+  height 50px
+  width 50px
+
+.maquinaria-image-container
+    position absolute
+    height 50px
+    width 30%
+    float right
+    top 0
+    right 0
+
+#gota
+  height auto
+  max-height 100%
+  width 100%
+  float right
+  padding 10px 10px 0 0
+  max-width 50px
+
+#semilla-chica
+  height auto
+  max-height 100%
+  width 100%
+  float right
+  padding 10px 10px 0 0
+  max-width 60px
+
+#semilla-grande
+  height auto
+  max-height 100%
+  width 100%
+  float right
+  padding 10px 10px 0 0
+  max-width 60px
+
+#taza
+  height auto
+  max-height 100%
+  width 100%
+  float right
+  padding 10px 10px 0 0
+  max-width 55px
+
+
+#etapa-1
+  position absolute
+  left 0
+  height 48%
+  width 49.3%
+
+#etapa-2
+  position absolute
+  right 0
+  height 48%
+  width 49.3%
+
+#etapa-3
+  position absolute
+  left 0
+  height 48%
+  width 49.3%
+  display flex
+  align-items flex-end
+  padding-bottom 17px
+
+
+#etapa-4
+  position absolute
+  right 0
+  height 48%
+  width 49.3%
+  display flex
+  align-items flex-end
+  padding-bottom 17px
+
+//-----------------------------------//
+//-----------------------------------//
+
+////////////////////////////////////////////
+          /* Client Section */
+////////////////////////////////////////////
+
+.client-section
+  background-image url('../img/2.jpg')
+  background-repeat no-repeat
+  width 100%
+  height 63vh
+  margin-top 10vh
+  display flex
+  flex-direction column
+  justify-content center
+  align-items center
+  color white
+  position relative
+  background-size cover
+
+.client-title-container
+  top 15%
+  position absolute
+
+#client-title
+  font-size 3vw
+  letter-spacing 1.2px
+
+#client-carousel
+  width 85%
+  margin-left auto
+  margin-right auto
+  height 90px
+  position absolute
+  bottom 50%
+
+#client-carousel img
+  padding 30px
+
+.slick-slide
+  margin 0 2.8vw
+  min-height 100% !important
+
+.slider-buttons-2
+  position absolute
+  bottom 25%
+
+.prev-2
+  padding 0 5px 0 5px
+  cursor pointer
+
+
+.next-2
+  padding 0 5px 0 5px
+  cursor pointer
+
+
+//-----------------------------------//
+//-----------------------------------//
+
+////////////////////////////////////////////
+          /* Taza excelencia Section */
+////////////////////////////////////////////
+.taza-section
+  width 100%
+  position relative
+  height 600px
+
+
+.taza-content-left
+  background-image url('../img/group-13.png')
+  background-size cover
+  background-repeat no-repeat
+  width 70%
+  height 80vh
+  margin-top -10vh
+  float left
+  position relative
+
+.taza-content-left-text
+  position absolute
+  margin-top 15vh
+  height 38vh
+  width 65vh
+  display flex
+  flex-direction column
+  align-items flex-start
+  left 20%
+
+#taza-content-left-p
+  line-height 1.6
+  padding 3vh 0 4.5vh 0
+  color #777777
+  font-size 1.2em
+
+#taza-content-left-title
+  font-size 2.6em
+  margin-top 30px
+  color: #2c2c2c
+
+#taza-cotizar-button
+  font-size 1em
+  color black
+  border-bottom solid 2px #196d2a
+  display inline
+  transition 0.3s
+  padding 0 3px
+  line-height 18px
+  letter-spacing 1px
+
+.taza-content-right
+  background-image url('../img/background.jpg')
+  background-size cover
+  background-repeat no-repeat
+  background-position right
+  width 30%
+  height 70vh
+  float right
+
+
+///////////////////////////////////////////
+          /* Aliados Section */
+////////////////////////////////////////////
+
+.aliados-container
+  width 85%
+  height 30%
+  margin-left 7.5%
+  margin-right 8%
+  background-image url('../img/group-18.png')
+  background-size cover
+  position absolute
+  bottom 15%
+  color white
+  box-shadow 0 34px 40px 0 rgba(0, 0, 0, 0.5)
+  display flex
+  flex-direction column
+  justify-content center
+  align-items center
+
+.aliados-cards-container
+  height 18vh
+  width 500px
+  margin-bottom -180px
+  display flex
+  justify-content space-around
+
+
+.aliados-card
+  background-image url(../img/fondo-gris.jpg)
+  height 100%
+  width 45%
+  display flex
+  align-items center
+  justify-content center
+
+#card-1
+  padding 30px 40px
+
+#card-2
+  padding 20px 50px
+
+#aliados-cards-image-1
+  height 100%
+  width 100%
+
+
+#aliados-cards-image-2
+  height 100%
+  width 100%
+
+.aliados-title
+  position absolute
+  top 40px
+  font-size 1.4em
+  letter-spacing 1px
+
+//-----------------------------------//
+//-----------------------------------//
